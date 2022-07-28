@@ -1,0 +1,168 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 10%;
+  
+}
+.navbar-container {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background-size: cover;
+}
+.navbar-container ul li {
+  list-style: none;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  margin: 0 30px;
+  font-size: 35px;
+  margin-top: 30px;
+
+}
+.navbar-container ul li {
+  color: black;
+  text-transform: uppercase;
+  background-size: cover;
+}
+.navbar-container ul li::after{
+  content: '';
+  height: 2px;
+  width: 0;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom:-10px;
+  transition: 0.5s;
+
+}
+.navbar-container ul li:hover::after{
+  width: 100%;
+  background-size: cover;
+}
+
+.square{
+  width: 100%;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 430px;
+  
+  background-size: cover;
+
+
+}
+.home{
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  margin-left: 150px;
+  margin-top: 100px;
+  
+
+}
+.hero-container-right{
+  width: 100%;
+  position:absolute;
+  transform: translateY(-50%);
+  top: 60%;
+  background-size: cover;
+  text-align: center;
+  margin-left: 355px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-heading{
+  width: 100%;
+  font-size: 100px;
+
+}
+.button-email{
+  width: 150px;
+  padding: 15px 0;
+  text-align: center;
+  margin:20px 10px;
+  border-radius: 18px;
+  font-weight: bold;
+  border: 2px solid black;
+  cursor: pointer;
+  top: 50px;
+
+
+}
+.button-join{
+  width: 130px;
+  padding: 15px 0;
+  text-align: center;
+  
+  margin:15px 5px;
+  border-radius: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.globe{
+  margin-left: 50%;
+ margin-top:8% ;
+ position: absolute;
+}
+.star{
+  margin-left: 40%;
+  top: 75%;
+  position: absolute;
+}
+.button-group{
+  width: 200px;
+  padding: 20px 0;
+  text-align: center;
+  margin:20px 10px;
+  border-radius: 18px;
+  margin-right: 150px;
+  cursor: pointer;
+  position: relative;
+}
+.nav-button
+{
+  width: 300px;
+  padding: 20x 0;
+  text-align:center;
+  margin:15px, 10px;
+  border-radius: 18px;
+  font-weight: bold;
+  border: 3px solid black;
+  cursor: pointer;
+  font-size: 25px;
+  position:absolute;
+}
+
+.search-icon{
+  list-style: none;
+  display:inline-flex;
+  position: absolute;
+  cursor: pointer;
+}
+.contact-heading{
+  width: 100%;
+  position: absolute;
+  margin-top: 5%;
+}
+.icon{
+  width: 100%;
+  position: absolute;
+  margin-top: 6%;
+}
